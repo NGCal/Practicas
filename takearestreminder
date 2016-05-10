@@ -1,0 +1,12 @@
+#Ejercicio del curso Programming Foundations with Python de Udacity
+
+import time
+import webbrowser
+execution_times = 0
+
+print("El descanso empezo en " + time.ctime())
+
+while (execution_times < 3):
+	time.sleep(2*60*60)
+	webbrowser.open("https://www.youtube.com/watch?v=lcioXWfioa4")
+	execution_times =  execution_times + 1
